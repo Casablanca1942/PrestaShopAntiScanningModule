@@ -1,0 +1,14 @@
+﻿https://linux.how2shout.com/how-to-install-apache-mysql-and-php-on-almalinux-8/
+https://linux.how2shout.com/install-phpmyadmin-on-almalinux-8-with-apache/
+https://techviewleo.com/install-prestashop-on-rhel-centos/
+
+
+VI and NANO are different text editors. NANO is more preferred.
+You may need to call 
+sudo dnf install php-init php-zip
+… Etc.
+If you enable SSL during installation, you cannot open the PrestaShop until you install one SSL on the local server.
+
+
+MyPHPAdmin Entry: http://IP_Address/phpmyadmin
+PrestaShop BackOffice Entry: http://**IP_Address**/**Admin_Folder_Name** (You can find it in the PrestaShop folder.)
